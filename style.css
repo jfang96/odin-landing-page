@@ -86,6 +86,7 @@ button {
 .card-container {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 64px;
 }
 
 .card {
@@ -108,3 +109,16 @@ button {
     align-content: center; 
 }
 
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 64px 100px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.name-text {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+    font-style: normal;
+}
