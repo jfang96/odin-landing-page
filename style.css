@@ -23,7 +23,7 @@ header,
     display: flex;
     background-color: #1f2937;
     color: white;
-    padding: 8px;
+    padding: 16px 64px;
 }
 
 header {
@@ -66,7 +66,7 @@ button {
 
 .top-image {
     background-color: #6d747d;
-    width: 300px;
+    width: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,4 +155,8 @@ footer {
     color: white;
     padding: 16px;
     font-size: 12px;
+}
+
+.lighter-text {
+    opacity: 75%;
 }
