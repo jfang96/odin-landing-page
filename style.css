@@ -17,11 +17,56 @@ ul {
     gap: 16px;
 }
 
+header,
+.intro-container {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 8px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    padding: 8px;
-    color: white;
-    background-color: midnightblue;
     align-items: center;
 }
+
+.intro-container {
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 8px;
+}
+
+.awesome-text {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.signup-button {
+    width: 100px;    
+}
+
+.top-image {
+    display: flex;
+    background-color: #6d747d;
+    border-width: 2px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
