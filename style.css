@@ -55,6 +55,7 @@ button {
     padding: 8px;
     border-radius: 8px;
     font-weight: bold;
+    width:100px;
 }
 
 .signup-button {
@@ -121,4 +122,28 @@ button {
     font-size: 16px;
     text-align: right;
     font-style: normal;
+}
+
+.action-container {
+    display: flex;
+    margin: 64px 16px;
+    justify-content: space-around;
+    background-color: #3b82f6;
+    padding: 32px 64px;
+    color: white;
+    border-radius: 8px;
+    align-content: center;
+}
+
+.action-text-container {
+    font-size: 12px;
+}
+
+.action-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.action-button {
+    border-color: white;
 }
